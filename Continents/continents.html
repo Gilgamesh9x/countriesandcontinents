@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="continents.css" />
+    <title>Continents</title>
+  </head>
+  <body>
+    <div class="center">
+      <a href="../index.html">
+        <button type="button" class="btn btn-outline-dark main-page">
+          Main page
+        </button>
+      </a>
+    </div>
+    <div class="container">
+      <h1>Get information about any continent you want!</h1>
+      <p class="error hide">Continent not found 🔴</p>
+      <input type="text" placeholder="Enter the continent you want" />
+      <button type="button" class="btn btn-outline-dark submit">Submit</button>
+    </div>
+
+    <section class="hide">
+      <main class="container2">
+        <div class="countries">
+          <!--           <article class="country">
+            <img class="country__img" src="" />
+            <div class="country__data">
+              <h3 class="country__name">COUNTRY</h3>
+              <h4 class="country__region">REGION</h4>
+              <p class="country__row"><span>👫</span>POP people</p>
+              <p class="country__row"><span>🗣️</span>LANG</p>
+              <p class="country__row"><span>💰</span>CUR</p>
+            </div>
+          </article> -->
+        </div>
+        <button type="button" class="btn btn-danger reset-button">
+          Look for another continent
+        </button>
+      </main>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
